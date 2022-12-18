@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/icons8-инспекция-50.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="container">
+    <header class="header">
+        <div class="container-nav">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="contacts"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="summary"><a href="#summary" class="nav-link"> Summary</a></li>
+                    <li class="skills"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="code"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="courses"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="projects"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="education"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="language"><a href="#language" class="nav-link">Language</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="black-background">
+            <section class="profile">
+                    <h1 class="title">Veronika Stre<span>lkova</span></h1>
+                    <h3 class="subtitle">Student, beginner Front-end Developer</h3>
+            </section>
+            </div>
+            <div class="flex-container">
+                <div class="image-wrapper">
+                <img src="./assets/photo_2022-12-08_23-52-07.png" alt="my photo" class="avatar">
+                <section class="section section-contacts">
+                <h2 class="section-title image-wrapper-title" id="contacts">Contacts</h2>
+                <ul class="contacts-list">
+                        <li class="contact-items">E-mail: mrdraushtam@mail.ru</li>
+                        <li class="contact-items">Phone: +79005614250</li>
+                        <li class="contact-items">GitHub: mrdraushtam</li>
+                        <li class="contact-items">Discord: mrdraushtam</li>
+                    </ul>
+                </section>
+                <hr class="white-hr">
+                <section class="section-skills">
+                        <h2 class="section-title image-wrapper-title" id="skills">Skills</h2>
+                        <ul class="skills-list">
+                            <li class="skills-items">HTML</li>
+                            <li class="skills-items">CSS</li>
+                            <li class="skills-items">GitHub</li>
+                        </ul>
+                </section>
+            </div>
+                <div class="flex-container-elements">
+                    <hr class="black-hr">
+                <section class="section section-summary">
+                    <h2 class="section-title" id="summary">Summary</h2>
+                    <p class="section-paragraph">I am a 4th year student at the university. And now I understand that I need more knowledge and skills for a good and relevant job, so I started learning coding a few months ago. I started by studying at Free Code Camp, and now I'm studying at RS School.</p>
+                </section>
+                <section class="section section-code">
+                    <h2 class="section-title" id="code">Code</h2>
+                    <pre>
+                        <code class="code-element">
+                        def multiply(a, b):
+                        return  (a * b)
+                        </code>
+                    </pre>
+                </section>
+                <section class="section section-courses">
+                    <h2 class="section-title" id="courses">Courses</h2>
+                    <ul class="courses-list">
+                        <li class="courses-items">
+                            <a href="https://www.freecodecamp.org/learn/" class="courses-link">FreeCodeCamp</a>
+                        </li>
+                        <li class="courses-items">
+                            <a href="https://rs.school/js/" class="courses-link">RS School</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section section-projects">
+                    <h2 class="section-title" id="projects">Projects</h2>
+                    <p class="section-paragraph">I don't have work experience yet, but I have 1 project:</p>
+                    <a href="https://mrdraushtam.github.io/rsschool-cv/" class="project-link"><img src="./assets/cv.png" alt="cv project" class="cv-project"></a>
+                    <p class="name-project">CV project</p>
+                </section>
+                <section class="section section-education">
+                    <h2 class="section-title" id="education">Education</h2>
+                    <p class="section-paragraph"><b>University:</b> <br> Baltic Federal University named after I. Kant</p>
+                </section>
+                <section class="section section-language">
+                    <h2 class="section-title" id="lahguage">Language</h2>
+                    <p class="section-paragraph"></p>
+                    <ul class="language-list">
+                        <li class="language-item">Russian - native;</li>
+                        <li class="language-item">English - B1-B2;</li>
+                    </ul>
+                </section>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<footer class="footer">
+        <ul class="footer-list">
+            <li class="footer-links">
+                <a href="https://github.com/mrdraushtam" class="footer-link-github"></a>
+            </li>
+            <li class="footer-links">
+                <a href="https://rs.school/js/" class="footer-link-rsschool"></a>
+            </li>
+            <li class="footer-links footer-link-year">2022</li>
+        </ul>
+</footer>
 </body>
 </html>
