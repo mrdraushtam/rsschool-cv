@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+html {
+    height: 100%;
+  }
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+.header {
+    position: absolute;
+    top: 255px;
+    left: 374px;
+    z-index: 1;
+  }
+.title,
+.subtitle {
+  width: 600px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 0 0 68px;
+ }
+span {
+  color: black;
+  font-weight: 600;
+}
+.title {
+  margin-top: 30px;
+  font-size: 40px;
+}
+.subtitle {
+font-size: 13px;
+font-weight: 100;
+margin-top: 5px;
+}
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-list {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 8px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+.avatar {
+  height: 600px;
+  width: 400px;
+  object-fit: cover;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container-elements {
+width: 500px;
+padding-left: 70px;
+margin-top: 300px;
+}
+.section {
+  padding-top: 5px;
+}
+.image-wrapper {
+  width: 400px;
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+li,
+p,
+.name-project {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+.image-wrapper-title {
+  font-weight: 100;
+  padding: 0 50px;
+}
+.contacts-list,
+.skills-list {
+  padding: 4px 0 0 70px;
+}
+.contact-items, 
+.skills-items {
+  padding: 4px 0;
+}
+.section-contacts {
+  padding: 60px 0 50px 0;
+}
+.section-skills {
+  padding-top: 60px;
+}
+.black-background {
+  width: 400px;
+  height: 130px;
+  position: absolute;
+  top: -20px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+}
+.black-hr {
+  width: 600px;
+  border: solid;
+  margin-left: -80px;
+}
+.white-hr {
+border: solid white;
+width: 250px;
+float: left;
+}
+.code-element {
+  display: block;
+  background-color: rgb(149, 146, 146);
+}
+.courses-link {
+  color: black;
+  text-decoration: none;
+}
+.footer {
+  width: 1000px;
+  height: 50px;
+  background-color:rgb(0, 0, 0);
+  margin: 0 auto;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-link-github {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: url("https://petr9ra.github.io/rsschool-cv/img/github-logo.svg");
+  background-repeat: no-repeat;
+}
+.footer-link-rsschool {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url("https://rs.school/images/rs_school_js.svg");
+  filter: invert(100%);
+  background-repeat: no-repeat;
+}
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.footer-link-year {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  height: 50px;
+  overflow: hidden;
+}
+.cv-project {
+  width: 120%;
+  border: 1px solid grey;
+}
+.name-project {
+  text-align: center;
+}
+.nav-link:hover {
+  color: rgb(249, 45, 195);
+}
+.courses-link:hover {
+  color: rgb(249, 45, 195);
+}
