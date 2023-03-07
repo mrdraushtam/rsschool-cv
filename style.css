@@ -142,6 +142,9 @@ float: left;
   height: 80px;
   background: url("https://petr9ra.github.io/rsschool-cv/img/github-logo.svg");
   background-repeat: no-repeat;
+  color: black;
+  font-size: 1px;
+  text-decoration: none;
 }
 .footer-link-rsschool {
   display: inline-block;
@@ -150,6 +153,9 @@ float: left;
   background: url("https://rs.school/images/rs_school_js.svg");
   filter: invert(100%);
   background-repeat: no-repeat;
+  color: black;
+  font-size: 1px;
+  text-decoration: none;
 }
 .footer-links {
   list-style: none;
@@ -180,4 +186,10 @@ float: left;
 }
 .courses-link:hover {
   color: rgb(249, 45, 195);
+}
+
+.project-link {
+  color: rgb(255, 255, 255);
+  font-size: 1px;
+  text-decoration: none;
 }
